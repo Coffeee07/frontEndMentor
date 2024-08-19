@@ -1,0 +1,111 @@
+@font-face {
+  font-family: RHT-Bold;
+  src: url(/product-list/product-list-with-cart-main/assets/fonts/static/RedHatText-Bold.ttf);
+}
+
+@font-face {
+  font-family: RHT;
+  src: url(/product-list/product-list-with-cart-main/assets/fonts/RedHatText-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: RHT-semi;
+  src: url(/product-list/product-list-with-cart-main/assets/fonts/static/RedHatText-SemiBold.ttf);
+}
+
+*
+{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box; 
+ font-family: 'RHT-semi';
+}
+.container
+{
+  display: flex;
+  flex-direction: row;
+  column-gap: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+}
+
+.RowPicture
+{
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  margin-bottom: 50px;
+}
+
+/*Pictures */
+
+.productPic
+{
+ width: 250px;
+ display: block;
+ border-radius: 15px;
+}
+
+
+
+/*Buttons */
+
+.imgButton
+{
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.imgButton > * {
+  margin-top: -20px; /* Adjust to control the overlap */
+}
+
+.add2CartButton {
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid rgb(149, 149, 149);
+  background-color: white;
+  width: 150px;
+
+}
+
+.cartIcon
+{
+  margin-bottom: -5px;
+}
+
+
+
+/* WORDS CSS */
+
+#desserts
+{
+  
+  font-size: 30px;
+  font-family: 'RHT-Bold';
+  margin-bottom: 50px;
+}
+
+.food
+{
+  color: hsl(0, 0%, 51%);
+  font-family: 'RHT';
+  font-weight: 450;
+  font-size: 14px;
+  margin: 2px 0px;
+}
+
+.foodName
+{
+  font-family: 'RHT-semi';
+ 
+}
+
+.price
+{
+  font-family: RHT-Bold;
+  color: rgba(186, 43, 0, 0.827);
+}
